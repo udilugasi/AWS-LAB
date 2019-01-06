@@ -35,8 +35,7 @@ chmod +x aws_instances.sh
 ./aws_instances.sh
 
 The output will be:
-
-
+------------------------------------------------------
 |                  DescribeInstances                 |
 +---------------------+---------------+--------------+
 |     Instance_ID     |     Name      |    State     |
@@ -48,5 +47,4 @@ The output will be:
 |  i-0ff9ad22340c671eb|  lab2-public  |  terminated  |
 |  i-03fa4bf1763c3dcdd|  lab1-public  |  terminated  |
 +---------------------+---------------+--------------+
-   
    
