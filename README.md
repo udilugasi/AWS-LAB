@@ -35,6 +35,7 @@ chmod +x aws_instances.sh
 ./aws_instances.sh
 
 The output will be:
+
 ------------------------------------------------------
 |                  DescribeInstances                 |
 +---------------------+---------------+--------------+
