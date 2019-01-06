@@ -30,22 +30,12 @@ How to run?
 **************************************************************************************
    
 Script to get a table with information about ec2 instances in your aws account:
+
 Run:
+
 chmod +x aws_instances.sh
+
 ./aws_instances.sh
 
-The output will be:
-
-------------------------------------------------------
-|                  DescribeInstances                 |
-+---------------------+---------------+--------------+
-|     Instance_ID     |     Name      |    State     |
-+---------------------+---------------+--------------+
-|  i-061ffaa3ad81361b3|  lab2-public  |  stopped     |
-|  i-05b02e903aa176d16|  lab1-public  |  stopped     |
-|  i-0e621b4a331bcbfe1|  lab2-public  |  terminated  |
-|  i-0842a2d02ea0ed131|  lab1-public  |  terminated  |
-|  i-0ff9ad22340c671eb|  lab2-public  |  terminated  |
-|  i-03fa4bf1763c3dcdd|  lab1-public  |  terminated  |
-+---------------------+---------------+--------------+
+The output will be a table of instances contains id, name and state.
    
