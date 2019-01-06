@@ -11,13 +11,16 @@ How to run?
    git clone https://github.com/udilugasi/AWS-LAB.git
 2. cd to the project directory
 3. Configure your aws access and security details:
+
    3.1 Under variables.tf file insert your: 
        aws_access_key_id
        aws_secret_access_key
        aws_region
+       
    3.2 Inside your aws account (console): 
    Configure IAM user and key pair with full ec2 access and update "key_name" & "private_key_name" variables accordingly.
    See an example in: https://www.youtube.com/watch?v=RA1mNClGYJ4
+   
 4. terraform init
    terraform plan
    terraform apply
