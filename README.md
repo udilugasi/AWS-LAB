@@ -36,7 +36,7 @@ chmod +x aws_instances.sh
 
 The output will be:
 
-------------------------------------------------------
+
 |                  DescribeInstances                 |
 +---------------------+---------------+--------------+
 |     Instance_ID     |     Name      |    State     |
