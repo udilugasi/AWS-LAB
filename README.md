@@ -18,9 +18,10 @@ How to run?
       * aws_region
        
    3.2 Inside your aws account (console): 
-   * Configure IAM user and ssh key pair with full ec2 access 
+   * Configure IAM user and ssh key pair with full ec2 access.
+   
+     See an example in: https://www.youtube.com/watch?v=RA1mNClGYJ4
    * update "key_name" & "private_key_name" variables accordingly.
-   See an example in: https://www.youtube.com/watch?v=RA1mNClGYJ4
    
 4. terraform init
    terraform plan
